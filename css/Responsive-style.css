@@ -101,6 +101,24 @@
         transform: translate(-50%);
     }
 
+    .feature-section .card .price{
+        font-size: 1.125rem;
+    }
+
+    /* downlond app section */
+
+    .downlond-app-btn img{
+        max-width: 9rem;
+        width: 100%;
+    }
+
+    /*  newsletter section*/
+
+      .newsletter .from-group input{
+        height: 3.2857rem;
+      }
+
+
 }
     @media (max-width : 768px){
         /* custom css */
@@ -142,9 +160,23 @@
             margin: 2.5rem;
            }
 
-           .feature-section .card{
+         
 
-           }
+           .feature-section .card .price{
+            font-size: 0.875rem;
+        }
 
+
+        /* footer section  */
+
+        .footer .footer-link,
+        .footer a i{
+            padding: 0.3rem 0.7rem ;
+        }
+
+        .footer a{
+            padding: 0 0.5rem;
+            align-items: center;
+        }
            
     }
